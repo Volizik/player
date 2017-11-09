@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- ** Для того, что бы развернуть плеер на весь экран - нужно добавить плееру класс full-screen ** -->
+
+<div class="wrap">
+    <div class="player full-screen" style="background: url(img/picture.png) center center no-repeat; background-size: cover">
+        <button class="play-btn"></button>
+        <div class="action-panel">
+            <button class="panel-play"></button>
+            <div class="progress">
+                <span class="progress-value"></span>
+                <span class="progress-loaded"></span>
+            </div>
+            <div class="time">
+                <span class="time-now">1:26</span>
+                <span class="time-all">3:22</span>
+            </div>
+            <div class="volume">
+                <img src="img/volume.png" alt="">
+                <div class="volume-progress">
+                    <span class="volume-value"></span>
+                </div>
+            </div>
+            <div class="resize">
+                <button class="resize-btn"><img src="img/size.png" alt=""></button>
+                <button class="hd"><img src="img/hd.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
